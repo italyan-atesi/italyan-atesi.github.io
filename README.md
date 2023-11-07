@@ -3,4 +3,4 @@
 QR kodu okutunca açılacak olan menü websitesi
 
 ## Link
-https://muhammetcanlikya.github.io/QrCodeMenu/index.html
+https://italyan-atesi.github.io/QrCodeMenu/index.html
