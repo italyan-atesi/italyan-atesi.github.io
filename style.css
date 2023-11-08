@@ -22,7 +22,7 @@
   align-items: baseline;
 }
 .item__title {
-  font: 35px cursive;
+  font: 35px  'Wellfleet', monospace;
   color: var(--wesbos);
   letter-spacing: 2px;
   margin: 0;
@@ -34,7 +34,7 @@
 }
 .item__price {
   color: var(--wesbos);
-  font: 30px cursive ;
+  font: 30px  'Wellfleet', monospace ;
 }
 .item__description {
   margin-bottom: 40px;
@@ -88,7 +88,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-family: "Open Sans", sans-serif;
+  font-family:  'Wellfleet', monospace;
   color: #fff;
 }
 
@@ -102,7 +102,7 @@ h2 {
   display: inline-block;
   border-bottom: 4px solid var(--wesbos);
   margin-top: 0;
-  font: 50px cookie, cursive;
+  font: 50px  'Wellfleet', monospace;
 }
 
 
