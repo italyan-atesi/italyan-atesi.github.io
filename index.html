@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant menu with follow along highlighter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+
+  <h2>Menümüz</h2>
+
+  <div class="buttons-container">
+    <a href="#" class="button button--is-active" data-target="pizzaMenu">Pizzalar</a>
+    <a href="#" class="button" data-target="salataMenu">Salatalar</a>
+    <a href="#" class="button" data-target="noodlesMenu">Makarnalar</a>
+    <a href="#" class="button" data-target="hamburgerMenu">Hamburgerler</a>
+     <a href="#" class="button" data-target="icecekMenu">İçecekler</a>
+     <a href="#" class="button" data-target="citirLezzetler">Çıtır Lezzetler</a>
+  </div>
+
+  <!-- Pizza Menu Başı -->
+  
+  <div class="menu menu--is-visible" id="pizzaMenu">
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">barbekü tavuklu pizza</h3>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/bbqtavuklu.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>270</span>
+      </div>
+      <p class="item__description">Domates Sos,Mozerella,Kırmızı Soğan,Mısır,Kekik,Tavuk Göğsü,Barbekü Sos</p>
+    </div>
+ 
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">köri tavuklu pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/kori-tavuklu.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>270</span>
+      </div>
+      <p class="item__description">Pesto Sos,Mozerella,Köri tavuk,Karamelize Soğan,Jalepon Biber</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">kremalı tavuklu pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/tavuk-kremali.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>270</span>
+      </div>
+      <p class="item__description">Mozerella,Krema,Tavuk,Mantar,Kibrit Çöpü Patates,Karabiber</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">fesleğen rokalı</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/feslegen-roka.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>240</span>
+      </div>
+      <p class="item__description">Pesto Sos,Mozerella,Roka,Ceviz,Nar Ekşisi,Chery Domates</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">voyn pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/Voynpizza.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>280</span>
+      </div>
+      <p class="item__description">Sucuk,Sosis,Jambon,Siyah Zeytin,Mısır,Yeşil Biber,Mozerella</p>
+    </div>
+    
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Tonbalıklı Pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/kalibso.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>250</span>
+      </div>
+      <p class="item__description">Domates Sosu,Mozerella,Ton Balığı,Kapari Turşusu,Mısır</p>
+    </div>
+    
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">margarita</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/margarita.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>200</span>
+      </div>
+      <p class="item__description">Domates Sosu,Mozerella,Çeri Domates,Kekik</p>
+    </div>
+    
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">vejeteryan pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/KarisikPizza.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>220</span>
+      </div>
+      <p class="item__description">Mısır,Domates Sos,Mozerella,Közlenmiş Patlıcan,Közlenmiş Kırmızı Biber,Siyah Zeytin</p>
+    </div>
+    
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">kavurmalı pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/kavurmali-pizza.JPG" alt="Kavurmalı Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>350</span>
+      </div>
+      <p class="item__description">Domates Sos,Mozerella,Kavurma,Jalepon Biber,Kırmızı Soğan,Közlenmiş Kırmızı Biber</p>
+    </div>
+    
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Çikolatalı Pizza</h3>
+        <span class="item__dots"></span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/cikolatali-pizza.JPG" alt="Barbekü Tavuklu Pizza">
+      <div class="item__header">
+        <span class="item__scale">Orta Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>-</span>
+      </div>
+      <div class="item__header">
+        <span class="item__scale">Büyük Boy</span>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>180</span>
+      </div>
+      <p class="item__description">Çikolata,Kitkat Parçacıkları</p>
+    </div> 
+
+  </div> <!-- Pizza Menu Sonu -->
+
+  <!-- Salata Menu Başı -->
+
+  
+  <div class="menu"id="salataMenu">
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">sezar salata</h3>
+        <span class="item__dots"></span><span class="item__price">
+          <span class="my-default-font">₺</span>150</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/sezar-salata.JPG" alt="Barbekü Tavuklu Pizza">
+      <p class="item__description">Iceberg Marul,Mozerella,Sezar Salata Sos,Kıtır Ekmek,Tavuk Parçaları</p>
+    </div>
+  
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">mevsim salatası</h3>
+        <span class="item__dots"></span><span class="item__price">
+          <span class="my-default-font">₺</span>120</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/mevsim-salata.JPG" alt="Barbekü Tavuklu Pizza">
+      <p class="item__description">Iceberg Marul,Domates,Salatalık,Mısır,Havuç,Zeytinyağı,Limon</p>
+    </div>
+  
+  </div>
+
+  
+  
+  <!-- Salata Menu Sonu -->
+
+  <!-- Makarna Menu Başı -->
+  <div class="menu" id="noodlesMenu">
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Köri tavuklu penne</h3>
+        <span class="item__dots"></span><span class="item__price">
+          <span class="my-default-font">₺</span>150</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/fettucini.JPG" alt="Barbekü Tavuklu Pizza">
+      <p class="item__description">Penne Makarna,Krema,Mantar,Tavuk,Mozerella</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Fettuccine Alfredo</h3>
+        <span class="item__dots"></span><span class="item__price">
+          <span class="my-default-font">₺</span>160</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/fettuccine-alfredo.png" alt="Barbekü Tavuklu Pizza">
+      <p class="item__description">Krema,Mantar,Tavuk Göğsü,Pesto Sos,Mozerella</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Spaghetti napoliten</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>140</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/spagetti-napoliten.JPG" alt="Barbekü Tavuklu Pizza">
+      <p class="item__description">Domates Sos,Pesto Sos,Spagetti,Mozerella</p>
+    </div>
+   
+  </div> <!-- Makarna Menu Sonu -->
+
+<!-- Hamburger Menu Başı -->
+<div class="menu"id="hamburgerMenu">
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Hamburger</h3>
+      <span class="item__dots"></span><span class="item__price">
+        <span class="my-default-font">₺</span>-</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/Hamburger.JPG" alt="Barbekü Tavuklu Pizza">
+    <p class="item__description">150gr Dana Eti,Hamburger Ekmeği,Domates,Marul,Turşu,Hamburger Sosu</p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Cheesburger</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>-</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/cizburger.JPG" alt="Barbekü Tavuklu Pizza">
+    <p class="item__description">150gr Dana Eti,2 Adet Chedar,Domates,Marul,Karemelize Soğan,Turşu,Özel Hamburger Sos</p>
+  </div>
+
+</div>
+<!-- Hamburger Menu Sonu -->
+
+  <!--Çıtır Lezzetler Menu Başı -->
+<div class="menu menu" id="citirLezzetler">
+<div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Patates Kızartması</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>60</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/patates-kizartmasi.png" alt="Patates Kızartması">
+      <p class="item__description"></p>
+    </div>
+
+ <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">10'lu Soğan Halkası</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>60</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/sogan-halkasi.png" alt="Soğan Halkası">
+      <p class="item__description"></p>
+    </div>
+
+   <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Nugget</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">
+          <span class="my-default-font">₺</span>55</span>
+      </div>
+      <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/nugget.png" alt="Nugget">
+      <p class="item__description"></p>
+    </div>
+
+</div>
+  <!-- Çıtır Lezzetler Menu Sonu -->
+  
+<!--İçecek Menu Başı -->
+<div class="menu" id="icecekMenu">
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Kola</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>40</span>
+    </div>
+    <img class="item_img" src="https://canaciktim.com/uploads/urun/5ecd2186ba534_kutu-kola.jpg" alt="Kola">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Büyük Ayran</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>-</span>
+    </div>
+    <img class="item_img" src="https://images.migrosone.com/sanalmarket/product/11554134/11554134-02aa38.jpg" alt="Ayran">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Fanta</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>40</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/fanta.png" alt="Fanta">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Sprite</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>40</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/sprite.png" alt="Sprite">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Ice Tea</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>40</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/fuseTea.png" alt="Ice Tea">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Küçük Ayran</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>20</span>
+    </div>
+    <img class="item_img" src="https://www.tokattadimdoner.com/image/cache/catalog/urunler/eker_kucuk-500x500.jpg" alt="Küçük Ayran">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Litrelik Kola</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>50</span>
+    </div>
+    <img class="item_img" src="https://cdn03.ciceksepeti.com/cicek/kc6859385-1/XL/coca-cola-1-lt-pet-kc6859385-1-5d67839392d1404f8a3d0ade2c4c75ff.jpg" alt="Soğuk Kahve">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Avşar Soda</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>20</span>
+    </div>
+    <img class="item_img" src="https://italyan-atesi.github.io/fotograflar23/avsar.png" alt="Meyve Suyu Çeşitleri">
+    <p class="item__description"></p>
+  </div>
+
+  <div class="item">
+    <div class="item__header">
+      <h3 class="item__title">Litrelik Ayran</h3>
+      <span class="item__dots"></span>
+      <span class="item__price">
+        <span class="my-default-font">₺</span>50</span>
+    </div>
+    <img class="item_img" src="https://images.migrosone.com/sanalmarket/product/11550470/sutas-pratik-sise-ayran-1-l-6ffab1-1650x1650.jpg" alt="Şalgam Suyu">
+    <p class="item__description"></p>
+  </div>
+
+</div>
+<!--İçecek Menu Sonu -->
+
+  
+</div> <!-- End Wrapper -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
